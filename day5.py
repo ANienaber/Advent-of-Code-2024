@@ -57,7 +57,7 @@ if __name__ == '__main__':
                             update.insert(j, update[i])
                             update.pop(i+1)
                             i = 1
-            i+=1
+            i += 1
         print(update)
 
     for update in incorrect_updates:
